@@ -1,19 +1,20 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Outfit", sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
 }
 
-body {
-    height: 100vh;
+body{
+  min-height: 100vh;
 }
 
-a {
-    text-decoration: none;
+a{
+  text-decoration: none;
 }
 
-.app {
-    width: 85%;
-    margin: 0 auto;
+.app{
+  width: 80%;
+  margin: 0 auto;
 }

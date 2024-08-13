@@ -1,4 +1,4 @@
-.navbar {
+.navbar{
     padding: 30px 0;
     display: flex;
     justify-content: space-between;
@@ -6,56 +6,54 @@
 }
 
 
-.navbar img {
+.navbar img{
     cursor: pointer;
 }
 
-.navbar .left-navbar .logo {
+.navbar .left-navbar .logo{
     width: 200px;
 }
 
-.navbar .center-navbar ul {
+.navbar .center-navbar ul{
     list-style: none;
     display: flex;
     align-items: center;
     gap: 30px;
 }
 
-.navbar .center-navbar ul li {
+.navbar .center-navbar ul li{
     cursor: pointer;
     color: #49557e;
     font-size: 18px;
     position: relative;
 }
-
-.navbar .center-navbar ul li::after {
-    position: absolute;
-    content: '';
-    width: 0%;
-    height: 2px;
-    background-color: #ff6347;
-    bottom: -3px;
-    left: 0;
-    transition: 0.3s;
-
+.navbar .center-navbar ul li::after{
+   position: absolute;
+   content: '';
+   width: 0%;
+   height: 2px;
+   background-color: #ff6347;
+   bottom: -3px;
+   left: 0;
+   transition: 0.3s;
+    
 }
-
 .navbar .center-navbar ul li.active::after,
-.navbar .center-navbar ul li:hover::after {
+.navbar .center-navbar ul li:hover::after{
     width: 100%;
 }
 
-.navbar .right-navbar {
+.navbar .right-navbar{
     display: flex;
     align-items: center;
     gap: 35px;
 }
 
-.cart-icon {
+.cart-icon{
     position: relative;
 }
 
-.cart-icon .cart-items-number {
+.cart-icon .cart-items-number{
     position: absolute;
     width: 25px;
     height: 25px;
@@ -68,7 +66,7 @@
     color: white;
 }
 
-.navbar .right-navbar .singup-button button {
+.navbar .right-navbar .singup-button button{
     font-size: 16px;
     background-color: transparent;
     border: none;
@@ -79,7 +77,6 @@
     cursor: pointer;
     transition: 0.3s;
 }
-
-.navbar .right-navbar .singup-button button:hover {
+.navbar .right-navbar .singup-button button:hover{
     background-color: #fff4f2;
 }
